@@ -33,7 +33,7 @@ public class PdfITextExtractor {
 			PdfReader reader = new PdfReader(pdfStream);
 			init(reader);
 		} catch (IOException e) {
-			LOGGER.severe("Does not work :(");
+			LOGGER.severe("Whoa whoa, palehche, exception");
 		}
 	}
 
@@ -42,7 +42,7 @@ public class PdfITextExtractor {
 			PdfReader reader = new PdfReader(filePath);
 			init(reader);
 		} catch (IOException e) {
-			LOGGER.severe("Whoa-whoa, easy ...does not work :(");
+			LOGGER.severe("Whoa whoa, palehche, exception");
 		}
 	}
 
